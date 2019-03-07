@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for a in ~/work/week6/cwl-data/data/structured/*.tar.gz
+do
+    tar -xzvf "$a" -C ~/work/week7
+done
